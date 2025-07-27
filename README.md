@@ -1,12 +1,99 @@
-# React + Vite
+# Return Predictor Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React-based frontend** for the **Return Predictor** microservices project. It is built using **Vite**, **React**, and **TailwindCSS** for a fast and modern development experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ React (with JSX)
+- ⚡ Vite (super-fast dev server and bundler)
+- 🎨 TailwindCSS (utility-first CSS framework)
+- 📦 npm (for package management)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+return-predictor-frontend/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── index.css ← Tailwind base styles
+│ └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js v18+
+- npm (comes with Node.js)
+- Git
+
+---
+
+### 🔧 Installation
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/YOUR_USERNAME/return-predictor-frontend.git
+cd return-predictor-frontend
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Start the development server
+
+bash
+Copy
+Edit
+npm run dev
+Visit in browser
+
+arduino
+Copy
+Edit
+http://localhost:5173
+🧪 Verify Tailwind is Working
+Open src/App.jsx and try this:
+
+jsx
+Copy
+Edit
+<div className="text-2xl text-green-600 font-bold">
+  Tailwind CSS is Working ✅
+</div>
+📦 Build for Production
+bash
+Copy
+Edit
+npm run build
+🚧 Features Coming Soon
+Component-based UI
+
+React Router-based navigation
+
+API integration with backend service
+
+OAuth2 secured login
+
+Dockerization & GitHub Actions CI/CD
+
+🤝 Contributing
+Feel free to fork the repo, create a feature branch and raise a PR.
+
+📄 License
+This project is open-source and available under the MIT License.
